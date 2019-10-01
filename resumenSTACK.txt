@@ -1,0 +1,18 @@
+1) Iniciar el proyecto nodeJS
+2) crear carpeta src para añadir los códigos
+3) crear el .babelrc un transpilador de código antiguo a los actuales
+4) se crea el webpack.config.js luego se pueden utilizar generadores de proyectos 
+
+5) dentro de src se crea routes para las urls
+6) se crea carpeta de models
+7) se crea la carpeta public para mandar al navegador con todos los archivos
+8) se crea la carpeta app para el cliente con los archivos .vue y lo dedicado al frontend, luego se convierte y se envía a la carpeta public
+9)se crea el archivo index.js que está en src y se inicia el servidor con express
+10) se fija el puerto con process.env.PORT se pide un puerto el S.O
+
+
+
+n+1) Se crean los archivos de desarrollo .babelrc  y webpack.config.js que son transpiladores de codigo
+n+1)para esto se instala webpack (npm i webpack -D) y webpack-cli (npm i webpack-cli -D) como dependencias de Desarrollo 
+n+1) posteriormente se instalan otras dependencias que se requieren para la agregar funcionalidades
+n+1) npm install babel-loader babel-preset-env vue-loader vue-template-compiler -D

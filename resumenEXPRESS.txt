@@ -1,0 +1,32 @@
+Video de express: https://www.youtube.com/watch?v=8eg4w8v076w
+
+1) se crea el entorno de trabajo
+2)  se incia con: npm init --yes
+3) se instala express: npm i express
+4) Se llama (importa) express y se asigna a una constante llamada app, para utilizarla siempre
+5) se crea un servidor como está descrito en index.js
+6) vamos a ver como crear las rutas en el servidor
+7) Adicionalmente agregamos una ruta no encontrada 
+
+8)Se empieza a trabajar con middlewares o funciones
+9)Se agrega el methodo next para que no siga después de procesar una función
+10) importa un middleware llamado morgan, pero yo no lo hice
+
+
+
+RESUMEN
+00:00 introduccion
+11:20 comenzamos, mostrando como se hace en nodejs solo
+13:57 instalamos express
+21:50 configuramos package.json para tener el comando start "npm start"
+22:10 que agrega express a nodejs
+25:18 Explicacion de Routing en express
+31:52 Explicacion middlewares (funciones intermedias)
+36:00 ejemplo de middlewares
+41:50 importamos un middlewares (Morgan)
+(Es un logger de request, notifica las peticiones que llegan)
+49:40 configuraciones en express usando app.set()
+(permite crear variables que almacena express)
+52:30 explicacion Templates, (dividimos una pagina html en partes que son reutilizables entre paginas)
+1:05:15 subdivision de la aplicacion, (ponemos las rutas en otro fichero y lo llamamos desde index.js)
+1:14:00 Otros frameworks para desarrollar
